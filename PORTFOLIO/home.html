@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yaswanth Kumar - Portfolio</title>
+    <link rel="stylesheet" href="home.css" />
+    <script defer src="home.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="profile" id="profile">
+      <div class="pic">
+        <img src="profile-pic.jpg" alt="Profile Picture" />
+      </div>
+      <div class="content">
+        <p class="t1">Hello, I'm</p>
+        <h1 class="t2">Vismita</h1>
+        <p class="t3">Full Stack Web Developer</p>
+        <div class="btn">
+          <button onclick="window.open('./resume_vismita.pdf')">Resume</button>
+        </div>
+
+        <div id="socials">
+          <img
+            src="./linkedin.png"
+            alt="LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/yaswanth-kumar-l-0b3661308'"
+          />
+          <img
+            src="./github.jpeg"
+            alt="GitHub Profile"
+            class="icon"
+            onclick="location.href='https://github.com/YaswanthKumar2116'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="t4">
+              <h2>About</h2>
+              <h4>
+                I am an aspiring engineering student with a strong interest in
+                web development and a passion for competitive coding. Known for
+                my consistency, hardworking nature, and eagerness for
+                collaborative development, I possess robust leadership skills.
+                With a CGPA of 9.4, I am dedicated to continuous learning and
+                excellence in my field
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <h3>Education</h3>
+      <div class="timeline">
+      <div class="cont left">
+        <div class="c">
+          <h2>2022 - 2026</h2>
+          <h4>B Tech Information Technology</h4>
+          <p>VCET<br />CGPA: 9.3</p>
+        </div>
+      </div>
+      <div class="cont right">
+        <div class="c">
+          <h2>2020 - 2022</h2>
+
+          <h4>Higher Secondary Education</h4>
+          <p>Sri.Sai.Matric, Tiruppur<br />Percentage: 882%</p>
+        </div>
+      </div>
+      <div class="cont left">
+        <div class="c">
+          <h2>2018 - 2020</h2>
+
+          <h4>Secondary Education</h4>
+          <p>Sri.Sai.Matric, Tiruppur<br />Percentage: 83%</p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <h3>Plant Disease Detection</h3>
+          <p>
+            Technology Stack : Python, Tensorflow, Jupyter, Scipy<br>
+            Algorithms Utilized : CNN
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Solar and Wind Energy Prediction</h3>
+          <p>
+            Technology Stack : <br>
+            Algorithms Utilized : Linear Regression
+          </p>
+        </div>
+        <div class="project-card"></div>
+          <h3>Optimized Path Prediction</h3>
+          <p>
+            Algorithms Utilized : A* and Dijkstra
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="grid">
+      <h2>
+        Contact Me
+      </h2>
+      <p>Get in touch</p>
+      
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
